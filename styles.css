@@ -337,3 +337,79 @@ font-size: 30px;
     filter: invert(1);
     max-width: 30px;
 }
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 30px;
+        margin-bottom: 10px;
+    } 
+
+    .nav {
+        margin: 5px 0;
+        flex-direction:row;
+        align-items: center;
+    }
+    .banner {
+        padding: 0 20px;
+        background-size: cover;
+        text-align: center; /* Center the content */
+    }
+
+    .banner .content h4 {
+        font-size: 24px;
+    }
+
+    .banner .content p {
+        font-size: 14px;
+    }
+
+    .banner .carousel-box {
+        padding: 0 20px;;
+        min-width: 300px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* position:relative; */
+        flex-direction:column; /* Stack carousel and content vertically */
+    }
+
+    .carousel .carousel-item {
+        max-width: 100%; /* Make carousel images smaller */
+        align-items: center;
+        
+    }
+    
+    .carousel {
+        height: 300px;
+        position: relative;
+        align-items: center;
+    }
+
+    .search {
+        width: 60%; /* Reduce the search bar width */
+        margin-top: 10px;
+    }
+
+    .sci {
+        flex-direction: column; /* Keep the social icons inline but centered */
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .trailer {
+        width: 90%;
+        height: 80%;
+    }
+}
