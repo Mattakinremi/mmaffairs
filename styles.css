@@ -344,27 +344,31 @@ font-size: 30px;
         padding: 15px 20px;
         flex-direction: column;
         align-items: center;
-    }
-
-    body{
-        align-items: center;
-        flex-direction: column;
-    }
+        }
 
     .logo {
         font-size: 30px;
-        margin-bottom: 10px;
+        margin-top: 20px;
     } 
 
     .nav {
-        margin: 5px 0;
+        margin: 10px 0;
         flex-direction:row;
         align-items: center;
     }
     .banner {
         padding: 0 20px;
         background-size: cover;
-        text-align: center; /* Center the content */
+        text-align: center;
+        min-width: 300px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position:relative; 
+        flex-direction:column;
+        margin-bottom: 20px;
+       
+        
     }
 
     .banner .content h4 {
@@ -375,21 +379,20 @@ font-size: 30px;
         font-size: 14px;
     }
 
-    .banner .carousel-box {
+    .carousel-box {
         padding: 0 20px;;
         min-width: 300px;
         align-items: center;
         display: flex;
         justify-content: center;
-        /* position:relative; */
-        flex-direction:column; /* Stack carousel and content vertically */
+        position:relative; 
+        flex-direction:column;
     }
 
     .carousel .carousel-item {
-        max-width: 100%; /* Make carousel images smaller */
+        max-width: 100%; 
         align-items: center;
-        
-    }
+        }
     
     .carousel {
         height: 300px;
@@ -398,12 +401,12 @@ font-size: 30px;
     }
 
     .search {
-        width: 60%; /* Reduce the search bar width */
-        margin-top: 10px;
+        width: 40%; 
+        margin-top: px;
     }
 
     .sci {
-        flex-direction: column; /* Keep the social icons inline but centered */
+        flex-direction: column; 
         justify-content: center;
         gap: 15px;
     }
