@@ -163,7 +163,7 @@ font-size: 30px;
 
 .banner .content .h4 span {
     padding: 0 10px;
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .banner .content h4 span:first-child {
@@ -233,17 +233,17 @@ font-size: 30px;
 
 .carousel{
     position: relative;
-    height: 450px;
+    height: 550px;
     perspective: 1500;
 }
 
 .carousel .carousel-item {
-    width: 350px;
+    width: 250px;
     cursor: pointer;
 }
 
 .carousel .carousel-item img {
-    max-width: 250px;
+    max-width: 235px;
     border-radius: 10px;
     transform: translateX(8px) translateY(-100px);
     object-fit: cover;
